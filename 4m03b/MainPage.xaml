@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4m03b.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="podaj email:"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+            <Entry 
+                x:Name="emailEnt"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="sprawdź"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+            
+            <Label
+                Text="sprawdzenie maila"
+                x:Name="weryfikacjaLbl"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
