@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout
             Spacing="55"
-            Padding="30,0"
+            Padding="10"
             VerticalOptions="Center">
 
             <Label
